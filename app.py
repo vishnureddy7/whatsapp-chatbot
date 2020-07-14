@@ -31,7 +31,7 @@ def bot():
     return str(resp);
 
 
-@app.route("/", methods="GET")
+@app.route("/")
 def home():
     return "Working Fine";
 
